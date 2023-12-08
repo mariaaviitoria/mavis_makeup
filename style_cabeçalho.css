@@ -1,0 +1,32 @@
+.cabecalho{
+    margin: 0;
+    padding: 0;
+    background: radial-gradient(circle at 7.5% 24%, rgb(248, 38, 126) 0%, rgb(230, 88, 75) 25.5%, rgb(231, 58, 179) 62.3%, rgb(236, 64, 159) 93.8%);;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    justify-content: space-between;
+    padding: 0 10%;
+
+}
+
+.logo{
+    width: 150px;
+}
+
+.titulo{
+    font-size: 90px;
+    letter-spacing: 3px;
+    text-transform: uppercase;  
+}
+
+.nav_bar{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    gap: 35px;
+}
+
+.cabecalho .rede_social{
+    width: 45px;
+}

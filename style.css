@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+body {
+    width: 100%;
+    background-color:  rgba(255, 255, 255, 0.8);
+}
+/*
+.cabecalho {
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid black;
+    margin-bottom: 0px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.cabecalho .titulo {
+  position: relative;
+  margin-top: 80px;
+  font-size: 90px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  width: 100%;
+  text-align: center;
+}
+  .cabecalho .logo {
+    max-width: 170px;
+    max-height: 170px;
+}
+
+  .cabecalho .nav_bar{
+    padding: 4px;
+    border-radius: 5px;
+    background-color: #fff;
+    color: black;
+    cursor: pointer;
+  } 
+*/
+  .selecao_bases .titulo_catalogo{
+    position: relative;
+    margin-top: 55px;
+    text-align: center;
+  }
+
+  .bases {  
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    min-height: calc(100vh - 152px);
+    justify-content: center;
+  }
+
+  .bases .catalogo {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0px;
+    gap: 30px;
+    justify-content: center;
+  }
+
+  .catalogo .bases {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 585px;
+    gap: 25px;
+  }
+
+  .nome_base{
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold    
+  }
+
+  .bases .catalogo .bases{
+    padding: 5px;
+    color: white;
+    text-align: center;
+    align-items: center;
+    border-radius: 15px;
+    width: 290px;
+    height: 390px;
+    background-color: #F5F5DC;
+
+  }
+
+
+
+  .fotos{
+    vertical-align: middle;
+    border-style: none;
+  }
+
+
+  .bases .base .fazer_pedido {
+    position: relative;
+    background-color: rgb(248, 38, 126);
+    color: #f5eadd;
+    border: solid 5px rgb(248, 38, 126);
+    padding: 2px 30px;
+    border-radius: 10px;
+    text-decoration: none;
+
+} 
+
+.rodape{
+  text-align: center;
+  color: white;
+  height: 100px;
+  background-color: rgb(248, 38, 126);
+  padding: 8px;
+}
+
+
+
+/*
+
+  
+#foto_base_marimaria{
+    margin-top: 25px;
+    width: 235px;
+    height: 270px;
+}
+
+#foto_base_marimaria:hover{
+  width: 285px;
+  height: 380px;
+}
+
+#foto_base_bocarosa{
+    margin-top: 45px;
+    width: 235px;
+    height: 270px;
+}
+
+#foto_base_bocarosa:hover{
+  margin-top: 15px;
+  width: 265px;
+  height: 290px;
+}
+
+#foto_base_fentybeauty{
+  margin-top: 65px;
+  width: 245px;
+  height: 240px;
+}
+
+#foto_base_fentybeauty:hover{
+  margin-top: 55px;
+  width: 345px;
+  height: 340px;
+}
+
+#foto_base_nars{
+  margin-top: 65px;
+  width: 255px;
+  height: 220px;
+}
+
+#foto_base_nars:hover{
+  margin-top: 55px;
+  width: 355px;
+  height: 320px;
+}
+
+*/
